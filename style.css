@@ -335,6 +335,10 @@ body {
 	background-color: #5851db;
 }
 
+/* PHOTO HOVER EFFECTS */
+.ava-png {
+	hover: transparent;
+}
 
 /* FOOTER */
 footer {

@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Muhammed Sayar</title>
-      <link rel="stylesheet" type="text/css" href="style.css">
-      <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-      <link rel="stylesheet" type="text/css" href="css/animate.css">
-      <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="" />
-      <meta name="keywords" content=" "/>
-      <meta name="author" content="Shrinath Nayak">
-      <meta name="robots" content="index, follow" />
-      <style>
-         /* .ava-png {
+
+<head>
+   <title>Muhammed Sayar</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+   <link rel="stylesheet" type="text/css" href="css/animate.css">
+   <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="" />
+   <meta name="keywords" content=" " />
+   <meta name="author" content="Shrinath Nayak">
+   <meta name="robots" content="index, follow" />
+   <style>
+      /* .ava-png {
             
          } */
-      </style>
-   </head>
-   <body>
-      <!--Card-->
-      <div class="card animated fadeIn">
-         <center><img class="ava-png center animated rollIn" src="img/ava.png" alt="avatar"></center>
-         <hr>
-         <div class="name">
-            Muhammed Sayar
-         </div>
-         <p class="subtitle">Bilgisayar Mühendisliği</p>
-         <!-- <p class="location"><i class="fa fa-map-marker"> </i><a href="#" > Amasya Üniversitesi</a>
+   </style>
+</head>
+
+<body>
+   <!--Card-->
+   <div class="card animated fadeIn">
+      <center><img class="ava-png center animated rollIn" src="img/ava.png" alt="avatar"></center>
+      <hr>
+      <div class="name">
+         Muhammed Sayar
+      </div>
+      <p class="subtitle">Bilgisayar Mühendisliği</p>
+      <!-- <p class="location"><i class="fa fa-map-marker"> </i><a href="#" > Amasya Üniversitesi</a>
          </p> -->
-         <p class="icons animated pulse">
-            <!-- <a href="https://www.instagram.com/mrrsayarr/" target="_blank">
+      <p class="icons animated pulse">
+         <!-- <a href="https://www.instagram.com/mrrsayarr/" target="_blank">
             <span class="fa-stack fa-lg">
                 <i class="fa fa-circle-thin fa-stack-2x"></i>
                 <i class="fa fa-twitter fa-stack-1x"></i>
@@ -44,24 +46,34 @@
                 <i class="fa fa-facebook fa-stack-1x"></i>
             </span>
             </a> -->
-            </a>
-            <a href="https://www.instagram.com/mrrsayarr/" target="_blank">
+         </a>
+         <a href="https://www.instagram.com/mrrsayarr/" target="_blank">
             <span class="fa-stack fa-lg">
-                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                <i class="fa fa-instagram fa-stack-1x"></i>
+               <i class="fa fa-circle-thin fa-stack-2x"></i>
+               <i class="fa fa-instagram fa-stack-1x"></i>
             </span>
-            </a>
-            <a href="https://github.com/mrrsayarr" target="_blank">
+         </a>
+         <a href="https://github.com/mrrsayarr" target="_blank">
             <span class="fa-stack fa-lg">
-                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x"></i>
+               <i class="fa fa-circle-thin fa-stack-2x"></i>
+               <i class="fa fa-github fa-stack-1x"></i>
             </span>
-            </a>
-         </p>
-      </div>
-      <!--footer-->
-      <footer class="animated fadeIn">
-      </footer>
-      <script src="./js/javascript.js"></script>   
-   </body>
+         </a>
+      </p>
+   </div>
+   <!--footer-->
+   <footer class="animated fadeIn">
+   </footer>
+   <script src="./js/javascript.js"></script>
+   <script>
+      function sagtus() {
+         if (event.button == 2) {
+               alert("Sağ tuş kullanmanız engellenmiştir, kopyalama yapamazsınız .");
+               // let x = 0;
+         }
+      }
+      document.onmousedown = sagtus;
+   </script>
+</body>
+
 </html>
