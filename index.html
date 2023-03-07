@@ -25,7 +25,9 @@
 <body>
    <!--Card-->
    <div class="card animated fadeIn">
-      <center><img class="ava-png center animated rollIn" src="img/ava.png" alt="avatar"></center>
+      <center><img class="ava-png center animated rollIn" src="img/ava.png" 
+            alt="avatar" oncontextmenu="return false"
+            onselectstart="return false" ondragstart="return false"></center>
       <hr>
       <div class="name">
          Muhammed Sayar
@@ -68,8 +70,8 @@
    <script>
       function sagtus() {
          if (event.button == 2) {
-               alert("Sağ tuş kullanmanız engellenmiştir, kopyalama yapamazsınız .");
-               // let x = 0;
+            alert("Sağ tuş kullanmanız engellenmiştir, kopyalama yapamazsınız .");
+            // let x = 0;
          }
       }
       document.onmousedown = sagtus;
