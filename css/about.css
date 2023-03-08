@@ -125,7 +125,7 @@ input:checked~label .cross:after {
 
 input:checked~.questions {
     max-height: 400px;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #000000;
     transition: 1s;
 }
 
