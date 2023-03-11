@@ -9,16 +9,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/about.css">
-    <style></style>
+    <!-- İcon ve font -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <style>
+
+    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> -->
             <a class="navbar-head navbar-brand" href="./index.html">  <strong>Muhammed Sayar</strong></a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -147,30 +152,61 @@
             </div>
 
         </div>
-
-        <script>
-            //  SHOW ALERT BUTTON 
-            const toastTrigger = document.getElementById('liveToastBtn')
-            const toastLiveExample = document.getElementById('liveToast')
-            if (toastTrigger) {
-                toastTrigger.addEventListener('click', () => {
-                    const toast = new bootstrap.Toast(toastLiveExample)
-
-                    toast.show()
-                })
-            }
-        </script>
+    </div>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-            integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-            crossorigin="anonymous"></script>
+    <footer class="footer-main">
+        <div class="footer-section">
+            <img src="./img/ava.png" alt="Kullanıcı Adı">
+        </div>
+        <div class="footer-section">
+            <h2 class="footer-about-me">Hakkımda</h2>
+            <p>Ben Kullanıcı Adı, bu web sitesinin sahibiyim. [Belirleyici özellikleriniz, deneyimleriniz ve
+                hedefleriniz hakkında kısa bir açıklama yapabilirsiniz]. Sizlerle deneyimlerimi ve bilgilerimi
+                paylaşmak için bu web sitesini oluşturdum. İletişim kurmak veya sorularınızı sormak için [e-posta
+                adresi / iletişim formu vb.] kullanabilirsiniz. Teşekkür ederim, ziyaretiniz için!</p>
+        </div>
+        <div class="footer-section">
+            <h2>Sosyal Medya Hesapları</h2>
+            <div class="social-media">
+                <a href="https://github.com/mrrsayarr" target="_blank"><i class="fa fa-3x fa-github"></i></a>
+                <a href="http://www.instagram.com/mrrsayarr" target="_blank"><i class="fa fa-3x fa-instagram"></i></a>
+                <a href="http://www.instagram.com/mrrsayarr" target="_blank"><i class="fa fa-3x fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        //  SHOW ALERT BUTTON 
+        const toastTrigger = document.getElementById('liveToastBtn')
+        const toastLiveExample = document.getElementById('liveToast')
+        if (toastTrigger) {
+            toastTrigger.addEventListener('click', () => {
+                const toast = new bootstrap.Toast(toastLiveExample)
+
+                toast.show()
+            })
+        }
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
