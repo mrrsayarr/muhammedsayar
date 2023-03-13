@@ -384,14 +384,21 @@ body {
 	text-decoration: none;
 	color: azure;
 	border: 1px solid white;
-	border-radius: 20px;
-	padding: 9px;
+	border-radius: 25px;
+	padding: 11px;
 	cursor: pointer;
-	box-shadow: 0 10px 20px -8px rgba(247, 247, 247, 0.7);
+	box-shadow: 0 10px 20px -8px rgba(247, 247, 247, 0.605);
 }
 
-.linktree::hover {
-	
+.linktree:hover {
+    background-image: linear-gradient(to right, #607c9d, #2d5076, #2b5876, #321890);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);	background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+	box-shadow: 0 15px 25px -8px rgb(247, 247, 247);
+
 }
 
 
