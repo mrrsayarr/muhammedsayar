@@ -6,12 +6,13 @@
 body {
 	width: 100%;
 	margin: 0px;
-    background-image: url(../img/bg.jpg);
+	background-image: url(../img/bg.jpg);
 	background-repeat: repeat-y no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
+
 .icons>a {
 	text-decoration: none;
 	color: darkgray;
@@ -39,17 +40,20 @@ body {
 		width: 35%;
 		border-radius: 5px;
 	}
+
 	.card:hover {
 		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 	}
+
 	img {
 		border: 20px solid rgb(83, 81, 81);
 		border-radius: 50%;
 		margin-top: 8%;
 		margin-bottom: -15% !important;
 		width: 30%;
-		
+
 	}
+
 	.name {
 		text-align: center;
 		font-size: 2.8em;
@@ -58,17 +62,20 @@ body {
 		margin-bottom: auto;
 		text-transform: capitalize;
 	}
+
 	hr {
 		width: 93%;
 		height: 2px;
 		background-color: gainsboro;
 		border: 0px;
 	}
+
 	.subtitle {
 		text-align: center;
 		font-size: 1.5em;
 		color: darkgray;
 	}
+
 	.icons {
 		font-size: 18px;
 		text-align: center;
@@ -77,6 +84,7 @@ body {
 		color: darkgray;
 		margin-bottom: 40px;
 	}
+
 	.location {
 		text-align: center;
 		color: white;
@@ -97,12 +105,14 @@ body {
 		background: url(img/bg.jpg) fixed no;
 		overflow-x: hidden;
 	}
+
 	hr {
 		width: 93%;
 		height: 2px;
 		background-color: rgb(190, 185, 185);
 		border: 0px;
 	}
+
 	.card {
 		margin-top: 30%;
 		margin-left: 2%;
@@ -113,9 +123,11 @@ body {
 		width: 95%;
 		border-radius: 5px;
 	}
+
 	.card:hover {
 		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 	}
+
 	img {
 		border: 20px solid rgb(83, 81, 81);
 		margin-bottom: -20% !important;
@@ -124,6 +136,7 @@ body {
 		transform: scale(1.5);
 
 	}
+
 	.name {
 		padding-right: 4px;
 		padding-left: 4px;
@@ -134,11 +147,13 @@ body {
 		margin-bottom: auto;
 		text-transform: capitalize;
 	}
+
 	.subtitle {
 		text-align: center;
 		font-size: 1.2em;
 		color: darkgray;
 	}
+
 	.icons {
 		font-size: 11px;
 		text-align: center;
@@ -147,6 +162,7 @@ body {
 		color: darkgray;
 		margin-bottom: 40px;
 	}
+
 	.location {
 		text-align: center;
 		color: white;
@@ -167,12 +183,14 @@ body {
 		background: url(img/bg.jpg) fixed no;
 		overflow-x: hidden;
 	}
+
 	hr {
 		width: 93%;
 		height: 2px;
 		background-color: rgb(127, 126, 126);
 		border: 0px;
 	}
+
 	.card {
 		margin-top: 6%;
 		margin-left: 9%;
@@ -183,18 +201,22 @@ body {
 		width: 80%;
 		border-radius: 5px;
 	}
+
 	.card:hover {
 		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 	}
+
 	img {
 		border: 20px solid rgb(83, 81, 81);
 		margin-bottom: -15% !important;
 		border-radius: 50%;
 		width: 25%;
 	}
+
 	img :hover {
 		transform: matrix3d();
 	}
+
 	.name {
 		padding-right: 4px;
 		padding-left: 4px;
@@ -205,11 +227,13 @@ body {
 		margin-bottom: auto;
 		text-transform: capitalize;
 	}
+
 	.subtitle {
 		text-align: center;
 		font-size: 1.9em;
 		color: darkgray;
 	}
+
 	.icons {
 		font-size: 18px;
 		text-align: center;
@@ -218,6 +242,7 @@ body {
 		color: rgb(41, 39, 39);
 		margin-bottom: 40px;
 	}
+
 	.location {
 		text-align: center;
 		color: rgb(86, 84, 84);
@@ -238,12 +263,14 @@ body {
 		background: url(img/bg.jpg) fixed no;
 		overflow-x: hidden;
 	}
+
 	hr {
 		width: 93%;
 		height: 2px;
 		background-color: gainsboro;
 		border: 0px;
 	}
+
 	.card {
 		margin-top: 4%;
 		margin-left: 13%;
@@ -254,15 +281,18 @@ body {
 		width: 75%;
 		border-radius: 5px;
 	}
+
 	.card:hover {
 		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 	}
+
 	img {
 		border: 20px solid rgb(83, 81, 81);
 		margin-bottom: -18% !important;
 		border-radius: 50%;
 		width: 30%;
 	}
+
 	.name {
 		text-align: center;
 		font-size: 2.5em;
@@ -271,11 +301,13 @@ body {
 		margin-bottom: auto;
 		text-transform: capitalize;
 	}
+
 	.subtitle {
 		text-align: center;
 		font-size: 2em;
 		color: darkgray;
 	}
+
 	.icons {
 		font-size: 15px;
 		text-align: center;
@@ -284,6 +316,7 @@ body {
 		color: darkgray;
 		margin-bottom: 40px;
 	}
+
 	.location {
 		text-align: center;
 		color: white;
@@ -301,10 +334,12 @@ body {
 	body {
 		visibility: hidden;
 	}
+
 	.name {
-        font-size: 1.5em !important;
-    }
+		font-size: 1.5em !important;
+	}
 }
+
 .fa-stack:hover {
 	transition: 0.9s;
 	transform: rotate(360deg);
@@ -344,6 +379,20 @@ body {
 	background-color: #5851db;
 }
 
+/* LİNKTREE LİNK */
+.linktree {
+	text-decoration: none;
+	color: azure;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 9px;
+	cursor: pointer;
+	box-shadow: 0 10px 20px -8px rgba(247, 247, 247, 0.7);
+}
+
+.linktree::hover {
+	
+}
 
 
 /* FOOTER */
