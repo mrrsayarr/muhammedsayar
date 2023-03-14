@@ -398,7 +398,7 @@ body {
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 	box-shadow: 0 15px 25px -8px rgb(247, 247, 247);
-
+	/* border: 0px solid rgb(46, 44, 44); */
 }
 
 
