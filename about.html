@@ -15,63 +15,87 @@
     <style>
         .container-skill {
             margin-top: 45px;
-        }
-        /* .copy-info{
+            /* flex-wrap: wrap; */
             display: flex;
-            flex-direction: row;
             justify-content: center;
-            width: 100%;
-        } */
+            padding: 10px;
+        }
+
+        .saat {
+            color: #888;
+            font-size: 24px;
+        }
+
+        .toast-container {
+            background-color: transparent !important;
+        }
+
+        .toast-header .toast-head {
+            background-color: transparent;
+        }
+
+        .toast-time {
+            background-color: transparent !important;
+        }
+
+        .toast-body {
+            background-color: white !important;
+        }
     </style>
 </head>
 
 <body>
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button> -->
-            <a class="navbar-head navbar-brand" href="./index.html">  <strong>Muhammed Sayar</strong></a>
+            <a class="navbar-head navbar-brand" href="./index.html">  <strong class="navbar-head-header">Muhammed
+                    Sayar</strong></a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 </ul>
-                <form class="d-flex" role="search">
-
-                </form>
+                <form class="d-flex" role="search"><span class="saat" id="saat"></span></form>
             </div>
         </div>
     </nav>
+    <!-- NAVBAR -->
 
     <div class="container">
 
         <!-- SHOW ALERT BUTTON -->
-        <!-- <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+        <!-- Buton ile açılması için -->
+        <!-- <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button> -->
+
         <div class="toast-container position-fixed bottom-0 end-0 p-3">
             <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
                 <div class="toast-header">
-                    <strong class="me-auto">Muhammed Sayar</strong>
-                    <small>Az önce</small>
+                    <strong class="toast-head me-auto">Muhammed Sayar</strong>
+                    <small class="toast-time" id="real-time"></small>
                     <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                 </div>
                 <div class="toast-body">
                     Kopyalama yapılamıyor, Kullanıcı ile iletişime geçebilirsiniz.
                 </div>
             </div>
-        </div> -->
+        </div>
+        <!-- SHOW ALERT BUTTON -->
 
+        <!-- SKİLLS -->
+        <h1 class="skill-header fa-3x">Yetenekler</h1>
         <div class="container-skill mt-10">
-            <h1>Yetenekler</h1>
-            <button type="button" class="btn btn-primary">C++</button>
-            <button type="button" class="btn btn-success">C</button>
             <button type="button" class="btn btn-danger">Python</button>
             <button type="button" class="btn btn-warning">C#</button>
+            <button type="button" class="btn btn-primary">C++</button>
+            <button type="button" class="btn btn-success">C</button>
             <button type="button" class="btn btn-info">MySQL</button>
             <button type="button" class="btn btn-dark">MSSQL</button>
             <button type="button" class="btn btn-info">Linux</button>
             <button type="button" class="btn btn-dark">HTML</button>
             <button type="button" class="btn btn-warning">CSS</button>
-            <button type="button" class="btn btn-primary">Javascript</button>
+            <button type="button" class="btn btn-primary">JavaScript</button>
             <button type="button" class="btn btn-success">Vue.js</button>
             <button type="button" class="btn btn-danger">Dart</button>
             <button type="button" class="btn btn-warning">GitHub</button>
@@ -79,17 +103,16 @@
         </div>
 
         <!-- INFORMATION BAR -->
-        <div class="alert alert-primary" role="alert">
-            Teknik anlamda Syntax ve Söz dizimine hakim olduğum olan diller de dahildir. Bazı projeleri <strong><a
-                    href="https://github.com/mrrsayarr">GitHub</a></strong> üzerinden görebilirsiniz.
+        <div class="alert alert-success" role="alert">
+            Teknik anlamda Syntax ve Söz dizimine hakim olduğum olan diller de dahildir. Bazı projeleri <a
+                class="github-alert" href="https://github.com/mrrsayarr">GitHub</a> üzerinden görebilirsiniz.
         </div>
+        <!-- INFORMATION BAR -->
 
-        <!-- ACCORDİON MENU -->
+        <!-- ACCORDİON CONTAİNER MENU -->
         <div class="accordion-container">
             <div class="wrapper">
-
-                <h1>Hakkımda</h1>
-
+                <h1 class="fa-3x">Hakkımda</h1>
                 <div class="wrap-1">
                     <input type="radio" id="tab-1" name="tabs">
                     <label for="tab-1">
@@ -115,16 +138,6 @@
                         inventore unde nobis voluptatibus illum quae rerum laudantium minima, excepturi quis maiores.
                         Eaque
                         quae, nam delectus
-                        <!-- <span class="tip" data-tip="Eaque quae, nam delectus explicabo, deserunt ipsum!">explicabo
-                        </span>,
-                        deserunt ipsum! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        <span class="tip" data-tip="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">Mollitia
-                        </span> autem
-                        quasi
-                        inventore unde nobis voluptatibus illum quae rerum laudantium
-                        minima, excepturi quis maiores. Eaque quae, nam delectus explicabo,
-                        <span class="tip" data-tip="Lorem ipsum dolor sit amet.">deserunt
-                        </span> ipsum! -->
                     </div>
                 </div>
 
@@ -162,41 +175,47 @@
                     </div>
                 </div>
             </div>
-
         </div>
+        <!-- ACCORDİON CONTAİNER MENU -->
     </div>
+    <!-- CONTAİNER -->
 
+    <!-- FOOTER -->
     <footer class="footer-main">
         <div class="footer-section">
-            <img src="./img/ava.png" alt="Kullanıcı Adı">
+            <img src="./img/ava.png" alt="Muhammed Sayar">
         </div>
+        <hr>
         <div class="footer-section">
-            <h2 class="footer-about-me">Hakkımda</h2>
-            <p>
-                Ben Kullanıcı Adı, bu web sitesinin sahibiyim. [Belirleyici özellikleriniz, deneyimleriniz ve
-                hedefleriniz hakkında kısa bir açıklama yapabilirsiniz]. Sizlerle deneyimlerimi ve bilgilerimi
-                paylaşmak için bu web sitesini oluşturdum. İletişim kurmak veya sorularınızı sormak için [e-posta
-                adresi / iletişim formu vb.] kullanabilirsiniz. Teşekkür ederim, ziyaretiniz için!
-            </p>
-        </div>
-        <div class="footer-section">
-            <h2>Sosyal Medya Hesapları</h2>
             <div class="social-media">
                 <a href="https://github.com/mrrsayarr" target="_blank"><i class="fa fa-3x fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/muhammed-sayar" target="_blank"><i
+                        class="fa fa-3x fa-linkedin"></i></a>
                 <a href="http://www.instagram.com/mrrsayarr" target="_blank"><i class="fa fa-3x fa-instagram"></i></a>
                 <a href="http://www.instagram.com/mrrsayarr" target="_blank"><i class="fa fa-3x fa-facebook"></i></a>
             </div>
         </div>
-        <hr>
-        <br>
-        <!-- <div class="copy-info">
-             &copy;<a href="#">Muhammed Sayar</a>
-        </div> -->
+        <div class="footer-section">
+        </div>
     </footer>
+    <!-- FOOTER -->
 
 
 
     <script>
+        // navbar saat
+        function saatGuncelle() {
+            var simdi = new Date();
+            var saat = simdi.getHours();
+            var dakika = simdi.getMinutes();
+            saat = saat < 10 ? "0" + saat : saat;
+            dakika = dakika < 10 ? "0" + dakika : dakika;
+            var zaman = saat + ":" + dakika;
+            document.getElementById("saat").innerHTML = zaman;
+        }
+        setInterval(saatGuncelle, 1000);
+
+
         //  SHOW ALERT BUTTON 
         const toastTrigger = document.getElementById('liveToastBtn')
         const toastLiveExample = document.getElementById('liveToast')
@@ -207,6 +226,29 @@
                 toast.show()
             })
         }
+
+        // toast mesajını gösteren fonksiyon
+        function showToast() {
+            var toast = new bootstrap.Toast(document.getElementById('liveToast'));
+            toast.show();
+        }
+
+        // sağ tık menüsü event listener'ı
+        document.addEventListener('contextmenu', function (event) {
+            // sağ tık yapıldığında showToast() fonksiyonunu çağır
+            showToast();
+            event.preventDefault(); // varsayılan sağ tık menüsünü engelle
+        });
+
+        // toast için gerçek zaman
+        function printRealTime() {
+            var now = new Date();
+            document.getElementById("real-time").innerHTML = now.toLocaleString();
+        }
+
+        // Her saniye gerçek zamanı güncelle
+        setInterval(printRealTime, 1000);
+
     </script>
 
 
