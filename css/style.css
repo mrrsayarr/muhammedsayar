@@ -330,7 +330,7 @@ body {
 	}
 }
 
-@media (min-width: 1px) and (max-width: 290px) {
+@media (min-width: 1px) and (max-width: 200px) {
 	body {
 		visibility: hidden;
 	}
